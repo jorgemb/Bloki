@@ -5,24 +5,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Source Files\Common">
-      <UniqueIdentifier>{9c742746-3041-4f3c-82bd-4c836859f96f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Blokus">
-      <UniqueIdentifier>{eee74958-6759-4ff9-b97e-2457edf63df1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Managers">
-      <UniqueIdentifier>{19fe40a5-a529-4f76-b4a0-68a9d8b269ef}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\States">
-      <UniqueIdentifier>{4afa0f6e-0424-44b0-b6ec-36356c7e9e74}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Features">
-      <UniqueIdentifier>{9691bc6a-4554-4460-aabc-059ce79ca62f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Utility">
-      <UniqueIdentifier>{e1f7b3a8-b586-4cf7-8d58-95d0e45b7522}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
@@ -49,149 +31,170 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="Source Files\blokus">
+      <UniqueIdentifier>{d6728c92-af41-44c9-923f-eec35a0f3379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{2da615d0-1ca7-4339-89f4-5f12aca0f9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features">
+      <UniqueIdentifier>{f7c2efc4-1549-41ac-9eed-21646d8f0c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\managers">
+      <UniqueIdentifier>{d34278e8-d3d3-4ea7-a343-731c1af77e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\states">
+      <UniqueIdentifier>{29a88231-4ce1-4191-ad6e-7d99cfc2faf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utilities">
+      <UniqueIdentifier>{b46f6c82-f339-4536-9cfc-15ea9b44e523}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BlokiWindow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Renderer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Input.cpp">
-      <Filter>Source Files\Common</Filter>
-    </ClCompile>
-    <ClCompile Include="Log.cpp">
-      <Filter>Source Files\Common</Filter>
-    </ClCompile>
-    <ClCompile Include="Window.cpp">
-      <Filter>Source Files\Common</Filter>
-    </ClCompile>
-    <ClCompile Include="BlokiFactory.cpp">
-      <Filter>Source Files\Blokus</Filter>
-    </ClCompile>
-    <ClCompile Include="BlokiManager.cpp">
-      <Filter>Source Files\Blokus</Filter>
-    </ClCompile>
-    <ClCompile Include="Blokus.cpp">
-      <Filter>Source Files\Blokus</Filter>
-    </ClCompile>
-    <ClCompile Include="BlokusMatrix.cpp">
-      <Filter>Source Files\Blokus</Filter>
-    </ClCompile>
-    <ClCompile Include="NextBlokus.cpp">
-      <Filter>Source Files\Blokus</Filter>
-    </ClCompile>
-    <ClCompile Include="GUIManager.cpp">
-      <Filter>Source Files\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="StateManager.cpp">
-      <Filter>Source Files\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="GameState.cpp">
-      <Filter>Source Files\States</Filter>
-    </ClCompile>
-    <ClCompile Include="HighscoresState.cpp">
-      <Filter>Source Files\States</Filter>
-    </ClCompile>
-    <ClCompile Include="MainState.cpp">
-      <Filter>Source Files\States</Filter>
-    </ClCompile>
-    <ClCompile Include="ShowHighscoresState.cpp">
-      <Filter>Source Files\States</Filter>
-    </ClCompile>
-    <ClCompile Include="Baro.cpp">
-      <Filter>Source Files\Features</Filter>
-    </ClCompile>
-    <ClCompile Include="Score.cpp">
-      <Filter>Source Files\Features</Filter>
-    </ClCompile>
-    <ClCompile Include="GdiFigures.cpp">
-      <Filter>Source Files\Utility</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BlokiWindow.h">
+    <ClInclude Include="include\BlokiWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Renderer.h">
+    <ClInclude Include="include\Renderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="resources.h">
+    <ClInclude Include="include\resources.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Utility.h">
+    <ClInclude Include="include\Utility.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Exception.h">
-      <Filter>Header Files\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="Input.h">
-      <Filter>Header Files\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="Log.h">
-      <Filter>Header Files\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="Ludos.h">
-      <Filter>Header Files\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="Window.h">
-      <Filter>Header Files\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="BlokiFactory.h">
+    <ClInclude Include="include\BlokiFactory.h">
       <Filter>Header Files\Blokus</Filter>
     </ClInclude>
-    <ClInclude Include="BlokiManager.h">
+    <ClInclude Include="include\BlokiManager.h">
       <Filter>Header Files\Blokus</Filter>
     </ClInclude>
-    <ClInclude Include="Blokus.h">
+    <ClInclude Include="include\Blokus.h">
       <Filter>Header Files\Blokus</Filter>
     </ClInclude>
-    <ClInclude Include="BlokusMatrix.h">
+    <ClInclude Include="include\BlokusMatrix.h">
       <Filter>Header Files\Blokus</Filter>
     </ClInclude>
-    <ClInclude Include="NextBlokus.h">
+    <ClInclude Include="include\NextBlokus.h">
       <Filter>Header Files\Blokus</Filter>
     </ClInclude>
-    <ClInclude Include="GUIManager.h">
-      <Filter>Header Files\Managers</Filter>
+    <ClInclude Include="include\Exception.h">
+      <Filter>Header Files\Common</Filter>
     </ClInclude>
-    <ClInclude Include="StateManager.h">
-      <Filter>Header Files\Managers</Filter>
+    <ClInclude Include="include\Input.h">
+      <Filter>Header Files\Common</Filter>
     </ClInclude>
-    <ClInclude Include="GameState.h">
-      <Filter>Header Files\States</Filter>
+    <ClInclude Include="include\Log.h">
+      <Filter>Header Files\Common</Filter>
     </ClInclude>
-    <ClInclude Include="HighscoresState.h">
-      <Filter>Header Files\States</Filter>
+    <ClInclude Include="include\Ludos.h">
+      <Filter>Header Files\Common</Filter>
     </ClInclude>
-    <ClInclude Include="MainState.h">
-      <Filter>Header Files\States</Filter>
+    <ClInclude Include="include\Window.h">
+      <Filter>Header Files\Common</Filter>
     </ClInclude>
-    <ClInclude Include="ShowHighscoresState.h">
-      <Filter>Header Files\States</Filter>
-    </ClInclude>
-    <ClInclude Include="Baro.h">
+    <ClInclude Include="include\Baro.h">
       <Filter>Header Files\Features</Filter>
     </ClInclude>
-    <ClInclude Include="Score.h">
+    <ClInclude Include="include\Score.h">
       <Filter>Header Files\Features</Filter>
     </ClInclude>
-    <ClInclude Include="GdiFigures.h">
+    <ClInclude Include="include\GUIManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StateManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShowHighscoresState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HighscoresState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GdiFigures.h">
       <Filter>Header Files\Utility</Filter>
     </ClInclude>
-    <ClInclude Include="GdiUtility.h">
+    <ClInclude Include="include\GdiUtility.h">
       <Filter>Header Files\Utility</Filter>
     </ClInclude>
-    <ClInclude Include="ResourceUtility.h">
+    <ClInclude Include="include\ResourceUtility.h">
       <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resources.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BlokiWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blokus\BlokiFactory.cpp">
+      <Filter>Source Files\blokus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blokus\BlokiManager.cpp">
+      <Filter>Source Files\blokus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blokus\Blokus.cpp">
+      <Filter>Source Files\blokus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blokus\BlokusMatrix.cpp">
+      <Filter>Source Files\blokus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blokus\NextBlokus.cpp">
+      <Filter>Source Files\blokus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Input.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Log.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Window.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\Baro.cpp">
+      <Filter>Source Files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\Score.cpp">
+      <Filter>Source Files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\managers\GUIManager.cpp">
+      <Filter>Source Files\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\managers\StateManager.cpp">
+      <Filter>Source Files\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\GameState.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\HighscoresState.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\MainState.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\ShowHighscoresState.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\GdiFigures.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

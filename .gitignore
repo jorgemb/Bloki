@@ -332,4 +332,6 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+
+# Runtime files
 LOG.txt

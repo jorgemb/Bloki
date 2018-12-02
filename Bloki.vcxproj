@@ -44,11 +44,13 @@
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
     <IntDir>$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
     <IntDir>$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -89,56 +91,59 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Baro.cpp" />
-    <ClCompile Include="BlokiFactory.cpp" />
-    <ClCompile Include="BlokiManager.cpp" />
-    <ClCompile Include="BlokiWindow.cpp" />
-    <ClCompile Include="Blokus.cpp" />
-    <ClCompile Include="BlokusMatrix.cpp" />
-    <ClCompile Include="GameState.cpp" />
-    <ClCompile Include="GdiFigures.cpp" />
-    <ClCompile Include="GUIManager.cpp" />
-    <ClCompile Include="HighscoresState.cpp" />
-    <ClCompile Include="Input.cpp" />
-    <ClCompile Include="Log.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="MainState.cpp" />
-    <ClCompile Include="NextBlokus.cpp" />
-    <ClCompile Include="Renderer.cpp" />
-    <ClCompile Include="Score.cpp" />
-    <ClCompile Include="ShowHighscoresState.cpp" />
-    <ClCompile Include="StateManager.cpp" />
-    <ClCompile Include="Window.cpp" />
+    <ClInclude Include="include\Baro.h" />
+    <ClInclude Include="include\BlokiFactory.h" />
+    <ClInclude Include="include\BlokiManager.h" />
+    <ClInclude Include="include\BlokiWindow.h" />
+    <ClInclude Include="include\Blokus.h" />
+    <ClInclude Include="include\BlokusMatrix.h" />
+    <ClInclude Include="include\Exception.h" />
+    <ClInclude Include="include\GameState.h" />
+    <ClInclude Include="include\GdiFigures.h" />
+    <ClInclude Include="include\GdiUtility.h" />
+    <ClInclude Include="include\GUIManager.h" />
+    <ClInclude Include="include\HighscoresState.h" />
+    <ClInclude Include="include\Input.h" />
+    <ClInclude Include="include\Log.h" />
+    <ClInclude Include="include\Ludos.h" />
+    <ClInclude Include="include\MainState.h" />
+    <ClInclude Include="include\NextBlokus.h" />
+    <ClInclude Include="include\Renderer.h" />
+    <ClInclude Include="include\resources.h" />
+    <ClInclude Include="include\ResourceUtility.h" />
+    <ClInclude Include="include\Score.h" />
+    <ClInclude Include="include\ShowHighscoresState.h" />
+    <ClInclude Include="include\StateManager.h" />
+    <ClInclude Include="include\Utility.h" />
+    <ClInclude Include="include\Window.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Baro.h" />
-    <ClInclude Include="BlokiFactory.h" />
-    <ClInclude Include="BlokiManager.h" />
-    <ClInclude Include="BlokiWindow.h" />
-    <ClInclude Include="Blokus.h" />
-    <ClInclude Include="BlokusMatrix.h" />
-    <ClInclude Include="Exception.h" />
-    <ClInclude Include="GameState.h" />
-    <ClInclude Include="GdiFigures.h" />
-    <ClInclude Include="GdiUtility.h" />
-    <ClInclude Include="GUIManager.h" />
-    <ClInclude Include="HighscoresState.h" />
-    <ClInclude Include="Input.h" />
-    <ClInclude Include="Log.h" />
-    <ClInclude Include="Ludos.h" />
-    <ClInclude Include="MainState.h" />
-    <ClInclude Include="NextBlokus.h" />
-    <ClInclude Include="Renderer.h" />
-    <ClInclude Include="resources.h" />
-    <ClInclude Include="ResourceUtility.h" />
-    <ClInclude Include="Score.h" />
-    <ClInclude Include="ShowHighscoresState.h" />
-    <ClInclude Include="StateManager.h" />
-    <ClInclude Include="Utility.h" />
-    <ClInclude Include="Window.h" />
+    <ResourceCompile Include="resources.rc">
+      <DeploymentContent>true</DeploymentContent>
+    </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="resources.rc" />
+    <ClCompile Include="src\BlokiWindow.cpp" />
+    <ClCompile Include="src\blokus\BlokiFactory.cpp" />
+    <ClCompile Include="src\blokus\BlokiManager.cpp" />
+    <ClCompile Include="src\blokus\Blokus.cpp" />
+    <ClCompile Include="src\blokus\BlokusMatrix.cpp" />
+    <ClCompile Include="src\blokus\NextBlokus.cpp" />
+    <ClCompile Include="src\common\Input.cpp" />
+    <ClCompile Include="src\common\Log.cpp" />
+    <ClCompile Include="src\common\Window.cpp" />
+    <ClCompile Include="src\features\Baro.cpp" />
+    <ClCompile Include="src\features\Score.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\managers\GUIManager.cpp" />
+    <ClCompile Include="src\managers\StateManager.cpp" />
+    <ClCompile Include="src\Renderer.cpp" />
+    <ClCompile Include="src\states\GameState.cpp" />
+    <ClCompile Include="src\states\HighscoresState.cpp" />
+    <ClCompile Include="src\states\MainState.cpp" />
+    <ClCompile Include="src\states\ShowHighscoresState.cpp" />
+    <ClCompile Include="src\utilities\GdiFigures.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,38 +1,38 @@
 #include "resources.h"
 
 /* ICONS AND OTHERS */
-ICON_MAIN		ICON		"Resources\\Icon.ico"
+ICON_MAIN		ICON		"res\\Icon.ico"
 
 /* IMAGES */
-IMAGE_TILES		PNG			"Resources\\Tiles32.png"
-GUI_NEWGAME		PNG			"Resources\\Menu\\NewGame.png"
-GUI_QUIT		PNG			"Resources\\Menu\\Quit.png"
-GUI_HIGHSCORES	PNG			"Resources\\Menu\\Highscores.png"
+IMAGE_TILES		PNG			"res\\Tiles32.png"
+GUI_NEWGAME		PNG			"res\\Menu\\NewGame.png"
+GUI_QUIT		PNG			"res\\Menu\\Quit.png"
+GUI_HIGHSCORES	PNG			"res\\Menu\\Highscores.png"
 
-IMAGE_GAMEOVER	PNG			"Resources\\GameOver.png"
-IMAGE_YOURNAME	PNG			"Resources\\YourName.png"
-IMAGE_SCORE		PNG			"Resources\\Score.png"
-IMAGE_ENTERHIGHSCORE PNG	"Resources\\Highscore.png"
-IMAGE_HIGHSCORES	PNG		"Resources\\Highscores.png"
-IMAGE_TITLE		PNG			"Resources\\Bloki.png"
-IMAGE_NEXTBLOKUS	PNG		"Resources\\NextBlokus.png"
+IMAGE_GAMEOVER	PNG			"res\\GameOver.png"
+IMAGE_YOURNAME	PNG			"res\\YourName.png"
+IMAGE_SCORE		PNG			"res\\Score.png"
+IMAGE_ENTERHIGHSCORE PNG	"res\\Highscore.png"
+IMAGE_HIGHSCORES	PNG		"res\\Highscores.png"
+IMAGE_TITLE		PNG			"res\\Bloki.png"
+IMAGE_NEXTBLOKUS	PNG		"res\\NextBlokus.png"
 
-BARO_MESSAGE		PNG		"Resources\\Baro\\Baro_message.png"
+BARO_MESSAGE		PNG		"res\\Baro\\Baro_message.png"
 	
-BARO_BODY			PNG		"Resources\\Baro\\Body.png"
-BARO_LEFT_ARM		PNG		"Resources\\Baro\\Left_arm.png"
-BARO_RIGHT_ARM		PNG		"Resources\\Baro\\Right_arm.png"
-BARO_LEGS			PNG		"Resources\\Baro\\Legs.png"
+BARO_BODY			PNG		"res\\Baro\\Body.png"
+BARO_LEFT_ARM		PNG		"res\\Baro\\Left_arm.png"
+BARO_RIGHT_ARM		PNG		"res\\Baro\\Right_arm.png"
+BARO_LEGS			PNG		"res\\Baro\\Legs.png"
 
-BARO_EYES_HAPPY		PNG		"Resources\\Baro\\Eyes_happy.png"
-BARO_EYES_NORMAL	PNG		"Resources\\Baro\\Eyes_normal.png"
-BARO_EYES_MAD		PNG		"Resources\\Baro\\Eyes_mad.png"
-BARO_EYES_WORRIED	PNG		"Resources\\Baro\\Eyes_worried.png"
+BARO_EYES_HAPPY		PNG		"res\\Baro\\Eyes_happy.png"
+BARO_EYES_NORMAL	PNG		"res\\Baro\\Eyes_normal.png"
+BARO_EYES_MAD		PNG		"res\\Baro\\Eyes_mad.png"
+BARO_EYES_WORRIED	PNG		"res\\Baro\\Eyes_worried.png"
 
-BARO_MOUTH_HAPPY	PNG		"Resources\\Baro\\Mouth_happy.png"
-BARO_MOUTH_SAD		PNG		"Resources\\Baro\\Mouth_sad.png"
-BARO_MOUTH_WORRIED	PNG		"Resources\\Baro\\Mouth_worried.png"
-BARO_MOUTH_O		PNG		"Resources\\Baro\\Mouth_o.png"
+BARO_MOUTH_HAPPY	PNG		"res\\Baro\\Mouth_happy.png"
+BARO_MOUTH_SAD		PNG		"res\\Baro\\Mouth_sad.png"
+BARO_MOUTH_WORRIED	PNG		"res\\Baro\\Mouth_worried.png"
+BARO_MOUTH_O		PNG		"res\\Baro\\Mouth_o.png"
 
 /* STRINGS */
 STRINGTABLE
